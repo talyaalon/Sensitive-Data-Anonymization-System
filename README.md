@@ -14,6 +14,18 @@ This project presents an automated solution for detecting and masking sensitive 
 
 ---
 
+## 🎥 Demo & Presentation
+
+- 🎬 **Project Demo Video:**  
+  https://canva.link/l7wfz8q83yigxxc  
+  *A short walkthrough demonstrating how the system processes files and masks sensitive data.*
+
+- 📊 **Project Presentation:**  
+  https://canva.link/10yyk4xaexsavck  
+  *A detailed presentation explaining the problem, solution, and system design.*
+
+---
+
 ## 🚀 Solution
 
 We developed a system that processes a directory of files, automatically identifies sensitive data patterns, and replaces them with sanitized values.
@@ -25,18 +37,19 @@ Instead of manually reviewing and redacting documents, the system performs this 
 ## ⚙️ How It Works
 
 ### Input
-- A folder containing files with potentially sensitive information
+- A folder containing files with potentially sensitive information  
 
 ### Processing
-- Pattern detection using **Regular Expressions (Regex)**
+- Pattern detection using **Regular Expressions (Regex)**  
 - Identification of sensitive entities such as:
   - IP addresses  
   - Identifiers  
   - Structured patterns  
+
 - Replacement (masking) logic:
   - Sensitive values are substituted with safe placeholders  
-  - Example:
-    - `192.168.1.1` → `123.123.123.123`
+  - Example:  
+    `192.168.1.1 → 123.123.123.123`
 
 ### Output
 - A sanitized version of the original files  
@@ -77,14 +90,14 @@ Instead of manually reviewing and redacting documents, the system performs this 
 
 Due to the sensitive nature of this project and organizational security policies, the source code and real data cannot be publicly shared.
 
-This repository is intended to present the system design, approach, and technical concepts behind the solution.
+This repository presents the system design, approach, and technical concepts behind the solution.
 
 ---
 
 ## 📚 Key Learnings
 
 - Designing secure systems under real-world constraints  
-- Translating business/security requirements into technical solutions  
+- Translating business and security requirements into technical solutions  
 - Working with pattern detection at scale  
 - Balancing usability with data protection  
 
